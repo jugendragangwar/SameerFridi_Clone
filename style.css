@@ -1,0 +1,95 @@
+body {
+    background-color: #000000;
+}
+
+.divheader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.divheader h2 {
+    color: white;
+    font-size: 40px;
+}
+
+.toptext h1 {
+    color: white;
+    text-align: center;
+    font-size: 55px;
+    font-family: sans-serif;
+    margin: 30px;
+}
+
+.toptext h3 {
+    font-weight: 200;
+}
+
+.btndiv {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    padding-inline: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border: solid wheat;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+}
+
+.link {
+    color: yellow;
+}
+
+.toptext h3 {
+    color: aliceblue;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    height: 45rem;
+    width: 100%;
+}
+
+.card1 {
+    border: solid rgb(2, 2, 87);
+    height: 183px;
+    width: 332px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.card1 h1 {
+    color: white;
+    font-weight: 700;
+}
+
+.card1 h3 {
+    color: white;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.card1 h2 {
+    color: white;
+    font-size: 17px;
+    text-align: end;
+    margin-top: 40px;
+    font-weight: 100;
+}
+
+.footer h3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 50;
+   
+}
